@@ -1,11 +1,11 @@
-def fibonacci(number)
+def fib_rec(number)
   if number < 2
     return number
   end
 
-  fibonacci(number -1) + fibonacci(number -2)
+  fib_rec(number -1) + fib_rec(number -2)
 end
 
 12.times do |i|
-  puts fibonacci(i)
+  puts fib_rec(i)
 end
