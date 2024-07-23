@@ -29,6 +29,8 @@ end
 
 # puts "final #{sort([4,7,7,2,9,9,7,3,2,6,4])}" 
 # puts "final #{sort([1,5,2,3]) }"
-puts "final #{sort([4,3,2,1])}"
+# puts "final #{sort([4,3,2,1])}"
+puts "final #{sort([105, 79, 100, 110])}"
 
 # puts "final: #{sort([8,0,0,7,3,0,6,1,4,8])}"
+puts "final: #{sort([3, 2, 1, 13, 8, 5, 0, 1])}"
